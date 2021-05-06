@@ -124,4 +124,53 @@ section {
     border-radius: 100px;
     max-width: 100%;
 }
-   
+.hero{
+    background-image: url('../img/hero.jpg');
+    height: 400px;
+    background-size:cover;
+    background-position: center;
+    text-transform: uppercase;
+}  
+.hero div h1 {
+    position: relative;
+}
+.hero div h1{
+    color: #faa541;
+}
+.hero div {
+    font-size: 63px;
+    font-weight: 700;
+    line-height: 0.9;
+}
+p {
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 21px;
+    margin: 0 0 0 10px;
+}
+.banner{
+    margin: 55px 15px;
+    width: 100%;
+    border-top: solid #a0a0a0 1px;
+    border-bottom: solid #a0a0a0 1px;
+    padding: 25px;
+}
+.banner img {
+    width: 250px;
+}
+.category-text {
+    color: #364147;
+    padding: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.category-text > div {
+    font-size: 16px;
+    font-weight: 200;
+    color: #faa541;
+}
+.category.text h3 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1;
+}
