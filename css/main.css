@@ -274,6 +274,7 @@ footer::after {
     z-index: -1;
 }
 .lists {
+    display: flex;
     flex: 0 0 75%;
     left: 15px;
     right: 15px;
@@ -304,16 +305,16 @@ footer a {
     background-position: center;
 }
 .twitter {
-    background-image: url(../img/twitter.svg);
+    background-image: url(/img/twitter.svg)
 }
 .facebook {
-    background-image: url(../img/facebook.svg);
+    background-image: url(/img/facebook.svg);
 }
 .instagram {
-    background-image: url(../img/instagram.svg);
+    background-image: url(/img/instagram.svg);
 }
 .pinterest {
-    background-image: url(../img/pinterest.svg);
+    background-image: url(/img/pinterest.svg);
 }
 .newsletter .link-header {
     font-size: 12px;
@@ -338,8 +339,9 @@ footer a {
     letter-spacing: 1px;
 }
 .ps {
+    display: flex;
     flex: 0 0 25%;
-    padding: 40p 0;
+    padding: 40px 0;
     color: #e5e5e5;
     font-size: 16px;
     max-width: 230px;
@@ -356,6 +358,7 @@ footer a {
     background: linear-gradient(to right, #f05a28 0, #e80a89 100%)
 }
 .copyright {
+    display: flex;
     flex: 0 0 75%;
     padding: 10px 0;
     font-size: 12px;
